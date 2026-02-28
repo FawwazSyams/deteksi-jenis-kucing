@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 14
+names: ['Abyssinian', 'Bengal', 'Birman', 'Bombay', 'British_Shorthair', 'Egyptian_Mau', 'Maine_Coon', 'Persian', 'Ragdoll', 'Russian_Blue', 'Siamese', 'Sphynx', 'Domestic', 'Mixdom']
+
+roboflow:
+  workspace: cat-breed
+  project: cat-breeds-2n7zk
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cat-breed/cat-breeds-2n7zk/dataset/3
