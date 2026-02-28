@@ -8,7 +8,7 @@ function App() {
   const [loading, setLoading] = useState(false)
 
   // Ganti URL ini dengan URL Railway kamu nanti!
-  const API_URL = "http://localhost:8000/detect"
+  const API_URL = "https://fawwazsyams-api-deteksi-kucing.hf.space/detect"
 
   const handleFileChange = (e) => {
     const file = e.target.files[0]
